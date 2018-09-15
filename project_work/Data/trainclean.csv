@@ -1,4 +1,4 @@
-date,address,block,street,trap,addressnumberandstreet,latitude,longitude,addressaccuracy,nummosquitos,wnvpresent,species_CULEX PIPIENS,species_CULEX PIPIENS/RESTUANS,species_CULEX RESTUANS,species_CULEX SALINARIUS,species_CULEX TARSALIS,species_CULEX TERRITANS
+date,address,block,street,trap,addressnumberandstreet,latitude,longitude,addressaccuracy,nummosquitos,wnvpresent,species_culex_pipiens,species_culex_pipiens/restuans,species_culex_restuans,species_culex_salinarius,species_culex_tarsalis,species_culex_territans
 2007-05-29,"4100 North Oak Park Avenue, Chicago, IL 60634, USA",41, N OAK PARK AVE,2,"4100  N OAK PARK AVE, Chicago, IL",41.95469,-87.800991,9,1,0,0,1,0,0,0,0
 2007-05-29,"4100 North Oak Park Avenue, Chicago, IL 60634, USA",41, N OAK PARK AVE,2,"4100  N OAK PARK AVE, Chicago, IL",41.95469,-87.800991,9,1,0,0,0,1,0,0,0
 2007-05-29,"6200 North Mandell Avenue, Chicago, IL 60646, USA",62, N MANDELL AVE,7,"6200  N MANDELL AVE, Chicago, IL",41.994991,-87.769279,9,1,0,0,0,1,0,0,0
