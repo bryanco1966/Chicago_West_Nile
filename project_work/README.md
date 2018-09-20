@@ -1,8 +1,8 @@
-Executive Summary
+### Executive Summary
 
 
 Problem
-West Nile Virus, an arthropod-borne virus, is a threat to the health and productivity of the people of Chicago. 
+West Nile Virus, an arthropod-borne virus, is a threat to the health and productivity of the people of Chicago.
 
 Can we use machine learning to predict West Nile Virus such that the city of Chicago can maximize the impact of its integrated pest management system?
 
@@ -11,7 +11,7 @@ The training data set consists of data from 2007, 2009, 2011, and 2013; the test
 The training data includes:
 Id: the id of the record
 Date: date that the WNV test is performed
-Address: approximate address of the location of trap. This is used to send to the GeoCoder. 
+Address: approximate address of the location of trap. This is used to send to the GeoCoder.
 Species: the species of mosquitos
 Block: block number of address
 Street: street name
@@ -21,7 +21,7 @@ Latitude, Longitude: Latitude and Longitude returned from GeoCoder
 AddressAccuracy: accuracy returned from GeoCoder
 NumMosquitos: number of mosquitoes caught in this trap
 WnvPresent: whether West Nile Virus was present in these mosquitos. 1 means WNV is present, and 0 means not present.
-The testing data set consists of all of these variables with the exception of NumMosquitoes. 
+The testing data set consists of all of these variables with the exception of NumMosquitoes.
 
 For the weather dataset, we replaced missing values M (missing) and T (unrecorded trace amounts signified only with the string T) with -1. This allows the iterative model to treat everything with a missing or trace value the same.
 
@@ -35,11 +35,12 @@ We were able to increase our sensitivity rate for a baseline of just over 4% to 
 
 We recommend that the city consider the following features in order to maximize the impact of its integrated pest management system:
 
-Use predictions to identify high volume West Nile areas for spraying when trap data is not available.
-Use risk factors identified by prominent features to predict when spraying season would be more prevalent.
-Use predictions of West Nile to inform medical providers of presence of West Nile in the area.
+* Use predictions to identify high volume West Nile areas for spraying when trap data is not available.
+
+* Use risk factors identified by prominent features to predict when spraying season would be more prevalent.
+
+* Use predictions of West Nile to inform medical providers of presence of West Nile in the area.
 
 
 Recommendations for Next Steps
 We are concerned about the differing collection methods of the two stations from which the weather data was collected.  Station 1, the Chicago O’Hare International Airport, collected data on several elements of weather that Station 2, Chicago Midway International Airport, did not. The lack of uniformity makes it difficult to configure a plan for the entirety of Chicago -- although it is clear that the plan should be granulated as needed to serve the heterogeneous communities of the city, weather data could be increasingly important to measure in as much detail as possible as the climate heightens and the conditions for this type of mosquito improve.
-
